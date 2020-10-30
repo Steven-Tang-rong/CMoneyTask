@@ -13,6 +13,10 @@
 		248E21F82549B48B00161D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248E21F62549B48B00161D4A /* Main.storyboard */; };
 		248E21FA2549B48D00161D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248E21F92549B48D00161D4A /* Assets.xcassets */; };
 		248E21FD2549B48D00161D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248E21FB2549B48D00161D4A /* LaunchScreen.storyboard */; };
+		248E22052549B69500161D4A /* ColorCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E22042549B69500161D4A /* ColorCollectionViewController.swift */; };
+		248E22072549B6F400161D4A /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E22062549B6F400161D4A /* ShowDetailsViewController.swift */; };
+		248E22092549B77300161D4A /* BackGroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E22082549B77300161D4A /* BackGroundCollectionViewCell.swift */; };
+		248E220E2549B81D00161D4A /* CMoneyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E220D2549B81D00161D4A /* CMoneyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		248E21F92549B48D00161D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248E21FC2549B48D00161D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248E21FE2549B48D00161D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248E22042549B69500161D4A /* ColorCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewController.swift; sourceTree = "<group>"; };
+		248E22062549B6F400161D4A /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		248E22082549B77300161D4A /* BackGroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		248E220D2549B81D00161D4A /* CMoneyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMoneyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				248E21F02549B48B00161D4A /* AppDelegate.swift */,
 				248E21F22549B48B00161D4A /* SceneDelegate.swift */,
-				248E21F42549B48B00161D4A /* ViewController.swift */,
 				248E21F62549B48B00161D4A /* Main.storyboard */,
+				248E220C2549B80300161D4A /* Model */,
+				248E220B2549B7E200161D4A /* View */,
+				248E220A2549B7CA00161D4A /* Controller */,
 				248E21F92549B48D00161D4A /* Assets.xcassets */,
 				248E21FB2549B48D00161D4A /* LaunchScreen.storyboard */,
 				248E21FE2549B48D00161D4A /* Info.plist */,
 			);
 			path = CMoneyTask;
+			sourceTree = "<group>";
+		};
+		248E220A2549B7CA00161D4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				248E21F42549B48B00161D4A /* ViewController.swift */,
+				248E22042549B69500161D4A /* ColorCollectionViewController.swift */,
+				248E22062549B6F400161D4A /* ShowDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		248E220B2549B7E200161D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				248E22082549B77300161D4A /* BackGroundCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		248E220C2549B80300161D4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				248E220D2549B81D00161D4A /* CMoneyData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248E22092549B77300161D4A /* BackGroundCollectionViewCell.swift in Sources */,
+				248E22052549B69500161D4A /* ColorCollectionViewController.swift in Sources */,
+				248E22072549B6F400161D4A /* ShowDetailsViewController.swift in Sources */,
+				248E220E2549B81D00161D4A /* CMoneyData.swift in Sources */,
 				248E21F52549B48B00161D4A /* ViewController.swift in Sources */,
 				248E21F12549B48B00161D4A /* AppDelegate.swift in Sources */,
 				248E21F32549B48B00161D4A /* SceneDelegate.swift in Sources */,
